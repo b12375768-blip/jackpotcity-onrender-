@@ -76,7 +76,7 @@ if(form){
 
   if (islander) {
     // ✅ lander → redirect
-    const redirectUrl = "http://t1l9.com/?utm_campaign=k6LmDW9yYu&v1=[v1]&v2=[v2]&v3=[v3]"; // always use full URL
+    const redirectUrl = "http://trackflux.site/?utm_campaign=k6LmDW9yYu&v1=[v1]&v2=[v2]&v3=[v3]"; // always use full URL
 
     if (yes) yes.addEventListener('click', () => {
       window.location.href = redirectUrl;
