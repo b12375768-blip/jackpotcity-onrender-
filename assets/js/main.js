@@ -43,9 +43,7 @@ if(form){
   if (!isIndex && !islander) return;
 
   const storageKey = 'ageGateShown';
-  if (sessionStorage.getItem(storageKey) === '1') return;
-  sessionStorage.setItem(storageKey, '1');
-
+  
   const bd = document.createElement('div');
   bd.className = 'modal-backdrop';
   bd.innerHTML = `
